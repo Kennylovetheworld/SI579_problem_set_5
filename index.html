@@ -2,10 +2,15 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
-    <title>Problem Set 4</title>
+    <title>Problem Set 5</title>
     <link rel = "stylesheet" href = "css/style.css">
     <link rel = "stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <script defer src="./Problem_Set_4_JS/ps4-my-code.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script defer src="./Problem_Set_5_JS/ps5-lodash-code.js"></script>
+    <script defer src="./Problem_Set_5_JS/ps5-moment-code.js"></script>
+    
   </head>
   <body>
     <header>
@@ -21,9 +26,9 @@
 
     <main>
       <div id="intro">
-      <h2>Hi</h2>
-      <p id = "useless">I am the best!!!!!!</p>
-      <p>I am <em>Shukai Fan</em></p>
+        <h2>Hi</h2>
+        <p id = "useless">I am the best!!!!!!</p>
+        <p>I am <em>Shukai Fan</em></p>
       </div>
 
       <div id="red">
@@ -33,7 +38,11 @@
 
       <div id="blue">
         <h2>Future</h2>
-        <p>I want to become a algorithm engineer in the future. To be honest, I just study this course for SI credits.</p>
+        <p>
+          I want to become a algorithm engineer in the future. 
+          However, sometimes life is a random number like this <em id = "random"></em>, you never know.
+          To be honest, I just study this course for SI credits. 
+        </p>
       </div>
 
       <div id="yellow">
@@ -55,6 +64,9 @@
     <footer>
       <p>University of Michigan School of Information <br/>
         &copy; SI579 2020-2021</p>
+        <div>
+          <p>Current time is: <div id="date"></div> </p>
+        </div>
     </footer>
   </body>
 </html>

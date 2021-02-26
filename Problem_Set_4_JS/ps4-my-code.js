@@ -28,7 +28,8 @@ function event3() {
 }
 
 function blueTheBackground() {
-    r.style.setProperty('--main-bg-color', 'lightblue');
+    // r.style.setProperty('--main-bg-color', 'lightblue');
+    r.style.setProperty('--main-bg-color', 'black');
 }
 
 function deleteOneElement() {
